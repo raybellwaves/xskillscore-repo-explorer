@@ -816,8 +816,8 @@ def st_dashboard():
             )
             similar_issue_1 = res[0][0]["id"]
             similar_issue_2 = res[0][1]["id"]
-            _df1 = df[df["number"] == similar_issue_1].drop_duplicates()
-            _df2 = df[df["number"] == similar_issue_2].drop_duplicates()
+            _df1 = df[df["number"] == similar_issue_1]
+            _df2 = df[df["number"] == similar_issue_2]
             st.dataframe(_df1)
             if not _df1.equals(_df2):
                 st.dataframe(_df2)
