@@ -1,0 +1,8 @@
+__pycache__/
+*.json
+*.csv
+*.pkl
+
+*.milvus.db.lock
+
+.ruff_cache

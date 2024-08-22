@@ -1,0 +1,17 @@
+geopandas
+folium
+mapclassify
+matplotlib
+langchain
+langchain-cli
+langchain-experimental
+langchain-google-genai
+langchain-openai
+openai
+pandas
+pyarrow
+pymilvus
+streamlit
+streamlit-folium
+tabulate
+watchdog
